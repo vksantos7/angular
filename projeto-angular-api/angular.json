@@ -2,11 +2,12 @@
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "cli": {
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "analytics": "66f0577e-de97-4583-910b-c5bb0a67aacd"
   },
   "newProjectRoot": "projects",
   "projects": {
-    "nome-do-projeto": {
+    "projeto-angular-api": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -26,7 +27,15 @@
             ],
             "styles": [
               "src/styles.css"
-            ]
+            ],
+            "server": "src/main.server.ts",
+            "outputMode": "server",
+            "security": {
+              "allowedHosts": []
+            },
+            "ssr": {
+              "entry": "src/server.ts"
+            }
           },
           "configurations": {
             "production": {
@@ -56,10 +65,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "nome-do-projeto:build:production"
+              "buildTarget": "projeto-angular-api:build:production"
             },
             "development": {
-              "buildTarget": "nome-do-projeto:build:development"
+              "buildTarget": "projeto-angular-api:build:development"
             }
           },
           "defaultConfiguration": "development"
