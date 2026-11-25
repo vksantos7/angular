@@ -1,0 +1,29 @@
+{
+    "usuarios": [
+        {
+            "nome": "João Silva",
+            "email": "joao.silva@example.com",
+            "telefone": "123456789"
+        },
+        {
+            "nome": "Maria Oliveira",
+            "email": "maria.oliveira@example.com",
+            "telefone": "987654321"
+        },
+        {
+            "nome": "Pedro Santos",
+            "email": "pedro.santos@example.com",
+            "telefone": "912345678"
+        },
+        {
+            "nome": "Ana Costa",
+            "email": "ana.costa@example.com",
+            "telefone": "923456789"
+        },
+        {
+            "nome": "Lucas Pereira",
+            "email": "lucas.pereira@example.com",
+            "telefone": "934567890"
+        }
+    ]
+}
